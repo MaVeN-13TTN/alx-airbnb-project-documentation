@@ -305,16 +305,14 @@ flowchart TD
     P --> Q[Generate JWT Token]
     Q --> R[Return Success Response & Token]
     R --> S[End Registration]
-    
-    classDef start fill:#58C4DC,stroke:#333,stroke-width:2px;
-    classDef process fill:#9BE5AA,stroke:#333,stroke-width:1px;
-    classDef decision fill:#FFD700,stroke:#333,stroke-width:1px;
-    classDef end fill:#FF6961,stroke:#333,stroke-width:2px;
-    
-    class A,S start;
-    class B,C,G,H,K,L,M,N,O,P,Q,R process;
-    class D,E,I decision;
-    class F,J process;
+
+    classDef startEnd fill:#58C4DC,stroke:#333,stroke-width:2px
+    classDef process fill:#9BE5AA,stroke:#333,stroke-width:1px
+    classDef decision fill:#FFD700,stroke:#333,stroke-width:1px
+
+    class A,S startEnd
+    class B,C,G,H,K,L,M,N,O,P,Q,R,F,J process
+    class D,E,I decision
 ```
 
 ## How to Create the Flowchart in Draw.io
