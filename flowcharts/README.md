@@ -306,9 +306,10 @@ flowchart TD
     Q --> R[Return Success Response & Token]
     R --> S[End Registration]
 
-    classDef startEnd fill:#58C4DC,stroke:#333,stroke-width:2px
-    classDef process fill:#9BE5AA,stroke:#333,stroke-width:1px
-    classDef decision fill:#FFD700,stroke:#333,stroke-width:1px
+    %% Black and grey color scheme with white text for better readability
+    classDef startEnd fill:#333333,stroke:#000000,stroke-width:2px,color:white
+    classDef process fill:#666666,stroke:#000000,stroke-width:1px,color:white
+    classDef decision fill:#444444,stroke:#000000,stroke-width:1px,color:white
 
     class A,S startEnd
     class B,C,G,H,K,L,M,N,O,P,Q,R,F,J process
